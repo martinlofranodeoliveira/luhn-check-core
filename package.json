@@ -1,0 +1,14 @@
+{
+  "name": "luhn-check-core",
+  "version": "0.1.0",
+  "description": "Luhn (ISO/IEC 7812) check-digit validation and generation for digit strings. Zero runtime dependencies.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test tests/luhn.test.js",
+    "demo": "node bin/luhn-check.mjs --assert"
+  }
+}
